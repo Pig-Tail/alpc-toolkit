@@ -1,0 +1,18 @@
+[package]
+name = "alpc-enum"
+version = "0.1.0"
+edition = "2021"
+description = "Enumerate ALPC ports and RPC endpoints on the system"
+
+[[bin]]
+name = "alpc-enum"
+path = "src/main.rs"
+
+[dependencies]
+alpc-core = { path = "../alpc-core" }
+windows-sys = { version = "0.59", features = [
+    "Win32_Foundation",
+    "Win32_System_Threading",
+    "Win32_Security",
+    "Win32_System_SystemInformation",
+] }

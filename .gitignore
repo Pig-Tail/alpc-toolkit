@@ -1,0 +1,26 @@
+# Rust build output
+/target/
+**/*.rs.bk
+
+# Cargo lock (keep for binaries/tools)
+# Cargo.lock  ← intentionally NOT ignored (it's a tool, not a lib)
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Windows artifacts
+Thumbs.db
+desktop.ini
+*.user
+
+# Research output files (optional — uncomment if you don't want these tracked)
+# probe-output.txt
+# surface_map.txt
+# rpc_interfaces.txt
+# accessible_ports.txt
+
+# Crash dumps
+*.dmp
+*.mdmp

@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "crates/alpc-core",
+    "crates/alpc-enum",
+    "crates/rpc-scan",
+    "crates/alpc-client",
+]
+resolver = "2"
